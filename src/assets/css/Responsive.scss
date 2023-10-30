@@ -1,0 +1,62 @@
+@media  screen and (max-width:380px){
+
+  .scrollbar-track-y{
+    display: none !important;
+  }
+
+    .hero-section {
+      width: 100%;
+      min-height: 100svh;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding-top: vw(300) !important;
+      align-items: center;
+      flex-direction: column;
+      gap: vw(50);
+    
+     
+    
+      h1 {
+        font-size: vw(20);
+        width: 90%;
+        text-align: center;
+        font-family: "peckhampress-regular";
+        font-weight: 300;
+      }
+  
+      p{
+        font-family: 'sofia-pro-regular';
+        font-size: vw(12);
+        text-align: center;
+        width: 90%;
+        line-height: 1.2;
+      }
+    
+      img{
+        width: 100%;
+        height: fit-content;
+        object-fit: contain;
+      }
+  
+    }
+  }
+  
+  @media  screen and (max-width:750px){
+    .scrollbar-track-y{
+      display: none !important;
+    }
+      
+  @function vw($value) {
+      $remValue: ($value / 1) + px;
+      @return $remValue;
+    }
+    
+
+    
+    
+   
+  }
+  
+  
+  

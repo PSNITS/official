@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'peckhampress-regular';
+    src: url('../fonts/fontsfree-net-peckhampress-trial-webfont.woff2') format('woff2'),
+         url('../fonts/fontsfree-net-peckhampress-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CIRCULARSTDBLACK';
+    src: url('../fonts/CIRCULARSTDBLACK.woff2') format('woff2'),
+         url('../fonts/CIRCULARSTDBLACK.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sofia-pro-regular';
+    src: url('../fonts/sofiapro-light-webfont.woff2') format('woff2'),
+         url('../fonts/sofiapro-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sofia-pro-semiBold';
+    src: url('../fonts/sofia_pro_semibold-webfont.woff2') format('woff2'),
+         url('../fonts/sofia_pro_semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sofia-pro-medium';
+    src: url('../fonts/sofia_pro_medium-webfont.woff2') format('woff2'),
+         url('../fonts/sofia_pro_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sofia-pro-condensedBlack';
+    src: url('../fonts/sofiaproregcond-webfont.woff2') format('woff2'),
+         url('../fonts/sofiaproregcond-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sofia-pro-light';
+    src: url('../fonts/sofiapro-light-webfont.woff2') format('woff2'),
+         url('../fonts/sofiapro-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lato-bold';
+    src: url('../fonts/lato-bold-webfont.woff2') format('woff2'),
+         url('../fonts/lato-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

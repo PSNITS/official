@@ -1,0 +1,56 @@
+.hire-us-page{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--white);
+    padding-bottom: 100px;
+  }
+
+  .hire-us-page .hireUsFRM.open {
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.hire-us-page .hireUsColRgt {
+    float: inherit;
+    width: 100%;
+    padding: 0 0 20px 0;
+    position: relative;
+    overflow: inherit;
+}
+
+.hire-us-page .cb-request-form{
+    padding-bottom: 100px;
+    margin: 0;
+    background-color: #fff;
+}
+
+.hire-us-page .heading {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 5%;
+    padding-bottom: 50px;
+    gap: 20px;
+    background-color: #cfced3;
+}
+
+.hire-us-page .heading h2{
+    font-size: 40px;
+}
+
+.hire-us-page .heading h1{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hire-us-page .heading h1 img {
+    width: 60px;
+}

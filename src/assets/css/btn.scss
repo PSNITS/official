@@ -1,0 +1,199 @@
+@function vw($value) {
+    $remValue: ($value / 13.6) + vw;
+    @return $remValue;
+  }
+  
+
+.btn{
+    overflow: hidden;
+    border-radius: vw(0);
+    text-transform: uppercase;
+      font-size: vw(12);
+      background-color: transparent;
+      width: vw(250);
+      height: vw(50);
+      color: var(--black);
+      font-family: "sofia-pro-regular";
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+    &:before{
+        content: "";
+    }
+    &:hover span{
+        box-shadow: 0 0 vw(50) var(--black);
+    }
+    span{
+        &:nth-child(1){
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: vw(2);
+            background: linear-gradient(to right,#0c002b00,var(--black));
+            animation: animate1 2s linear infinite;
+        }
+        &:nth-child(2){
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: vw(2);
+            height: 100%;
+            background: linear-gradient(to bottom,#0c002b00,var(--black));
+            animation: animate2 2s linear infinite;
+            animation-delay: 1s;
+        }
+        &:nth-child(3){
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: vw(2);
+            width: 100%;
+            background: linear-gradient(to left,#0c002b00,var(--black));
+            animation: animate3 2s linear infinite;
+            animation-delay: 2s;
+        }
+        &:nth-child(4){
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: vw(2);
+            height: 100%;
+            background: linear-gradient(to top,#0c002b00,var(--black));
+            animation: animate4 2s linear infinite;
+            animation-delay: 3s;
+        }
+    }
+  }
+
+
+
+  @media  screen and (max-width:750px){
+    @function vw($value) {
+        $remValue: ($value / 1) + px;
+        @return $remValue;
+      }
+    .btn{
+        overflow: hidden;
+        border-radius: vw(6);
+          font-size: vw(14);
+          width: 90%;
+          height: vw(50);
+          font-family: "sofia-pro-regular";
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+        &:before{
+            content: "";
+        }
+        &:hover span{
+            box-shadow: 0 0 vw(50) #1779ff;
+        }
+        span{
+            &:nth-child(1){
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: vw(2);
+                animation: animate1 2s linear infinite;
+            }
+            &:nth-child(2){
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: vw(2);
+                height: 100%;
+                animation: animate2 2s linear infinite;
+                animation-delay: 1s;
+            }
+            &:nth-child(3){
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: vw(2);
+                width: 100%;
+                animation: animate3 2s linear infinite;
+                animation-delay: 2s;
+            }
+            &:nth-child(4){
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: vw(2);
+                height: 100%;
+                animation: animate4 2s linear infinite;
+                animation-delay: 3s;
+            }
+        }
+      }
+
+
+  }
+
+
+  @media  screen and (max-width:950px) and (min-width:750px) {
+    @function vw($value) {
+        $remValue: ($value / 1) + px;
+        @return $remValue;
+      }
+    .btn{
+        overflow: hidden;
+        border-radius: vw(6);
+          font-size: vw(14);
+          width: 90%;
+          height: vw(50);
+          font-family: "sofia-pro-regular";
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+        &:before{
+            content: "";
+        }
+        &:hover span{
+            box-shadow: 0 0 vw(50) #1779ff;
+        }
+        span{
+            &:nth-child(1){
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: vw(2);
+                animation: animate1 2s linear infinite;
+            }
+            &:nth-child(2){
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: vw(2);
+                height: 100%;
+                animation: animate2 2s linear infinite;
+                animation-delay: 1s;
+            }
+            &:nth-child(3){
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: vw(2);
+                width: 100%;
+                animation: animate3 2s linear infinite;
+                animation-delay: 2s;
+            }
+            &:nth-child(4){
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: vw(2);
+                height: 100%;
+                animation: animate4 2s linear infinite;
+                animation-delay: 3s;
+            }
+        }
+      }
+
+
+  }

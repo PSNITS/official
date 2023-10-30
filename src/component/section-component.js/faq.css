@@ -1,0 +1,104 @@
+.accordion-h1{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--black);
+  position: relative;
+  width: fit-content;
+  margin-bottom: 100px;
+  margin-top: 60px;
+  font-family: 'peckhampress-regular';
+  font-weight: 400;
+}
+
+.accordion-h1 span{
+  position: absolute;
+  right: 0;
+  bottom: -100%;
+  width: 100px;
+  height: -webkit-fill-available;
+}
+
+
+.accordion {
+    width: 95%;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    padding-bottom: 60px;
+  }
+
+  .accordion li{
+    width: 100%;
+  }
+  
+  .accordion li button{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'sofia-pro-semiBold';
+    color: #202020;
+    padding: 0 3%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    justify-content: space-between;
+  }
+
+  .accordion li button .control{
+    font-weight: bold;
+  }
+
+  .accordion li .answer{
+    padding: 1% 3%;
+    font-size: 15px;
+    font-family: 'sofia-pro-semiBold';
+    font-weight: 400;
+    color: #202020;
+  }
+
+
+  .accordion-item {
+    background-color: transparent;
+    color: var(--black);
+    margin: 1rem 0;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid var(--black);
+  }
+  .accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  .accordion-item-header::after {
+    content: "\002B";
+    font-size: 2rem;
+    position: absolute;
+    right: 1rem;
+  }
+  .accordion-item-header.active::after {
+    content: "\2212";
+  }
+  .accordion-item-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+    backdrop-filter: blur(3px);
+  }
+  .accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid;
+    border-image: linear-gradient(to right, transparent, #34495e, transparent) 1;
+  }

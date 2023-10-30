@@ -1,0 +1,12 @@
+/* activate toggle */
+.accordion_item.active .button {
+    /* background-color: #105057; */
+  }
+  .answer_wrapper {
+    max-height: 0;
+    overflow: hidden;
+  }
+  .answer_wrapper.open {
+    transition: max-height ease 1s;
+    max-height: 1000px;
+  }
